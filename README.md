@@ -1,6 +1,6 @@
 # Dell Precision 7740 OpenCore EFI
 
-> OpenCore 引导的 Dell Precision 7740 黑苹果 EFI，基于 macOS Sonoma。  
+> OpenCore 引导的 Dell Precision 7740 黑苹果 EFI，基于 **macOS Ventura**。  
 > **三码已清除，使用前请自行生成并填入 `config.plist`。**
 
 ## ⚠️ 重要提醒
@@ -162,7 +162,7 @@ cd GenSMBIOS
 
 ## 测试系统
 
-- macOS Sonoma (14.x)
+- macOS Ventura (13.x)
 
 ## 致谢
 

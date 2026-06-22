@@ -29,8 +29,8 @@
 | dGPU | AMD Radeon Pro WX7130 8GB ( Ellesmere, Polaris 10 ) |
 | 显卡模式 | 混合显卡 (iGPU + dGPU 共存) |
 | 音频 | Realtek ALC289 |
-| Wi-Fi | Intel Wireless (AirportItlwm) |
-| 蓝牙 | Intel Bluetooth |
+| Wi-Fi | Broadcom BCM94360CS2 (AirportBrcmFixup) |
+| 蓝牙 | Broadcom BCM94360 内置蓝牙 (BrcmPatchRAM3) |
 | 触摸板 | I2C 触摸板 (VoodooI2C) |
 | SMBIOS | MacBookPro16,4 |
 
@@ -41,8 +41,8 @@
 | 混合显卡 (iGPU + WX7130) | ✅ | iGPU 负责 UI/日常，dGPU 按需加载 |
 | S3 睡眠唤醒 | ✅ | 关盖休眠实测 2 天后正常唤醒 |
 | 有线网络 (Intel I219) | ✅ | IntelMausi |
-| Wi-Fi | ✅ | AirportItlwm 2.3.0 |
-| 蓝牙 | ✅ | IntelBluetoothFirmware + BlueToolFixup |
+| Wi-Fi (BCM94360) | ✅ | AirportBrcmFixup 2.2.1 |
+| 蓝牙 (BCM94360) | ✅ | BrcmPatchRAM3 + BlueToolFixup |
 | 音频 (内置扬声器 + 耳机) | ✅ | AppleALC |
 | 摄像头 | ✅ | |
 | I2C 触摸板 (手势/多点触控) | ✅ | VoodooI2C + VoodooI2CHID |
@@ -79,15 +79,15 @@
 ### 网络
 | Kext | 版本 | 用途 |
 |------|------|------|
-| AirportItlwm | 2.3.0 | Intel Wi-Fi |
-| AirportBrcmFixup | — | Wi-Fi 补丁 |
-| IntelBluetoothFirmware | 2.4.0 | Intel BT 固件上传 |
-| IntelBluetoothInjector | — | Intel BT 注入 |
-| IntelBTPatcher | — | Intel BT 补丁 |
+| AirportBrcmFixup | 2.2.1 | BCM94360 Wi-Fi |
+| BrcmPatchRAM3 | — | BCM94360 蓝牙 RAM 补丁 |
+| BrcmFirmwareData | — | BCM94360 蓝牙固件数据 |
 | BlueToolFixup | — | Sonoma BT 修复 |
-| BrcmPatchRAM3 | — | BT RAM 补丁 |
-| BrcmFirmwareData | — | BT 固件数据 |
+| IntelBluetoothFirmware | 2.4.0 | BT 固件上传 (兼容层) |
+| IntelBluetoothInjector | — | BT 注入 |
+| IntelBTPatcher | — | BT 补丁 |
 | IntelMausi | — | Intel I219 有线网络 |
+| AirportItlwm | 2.3.0 | Intel Wi-Fi (备用, 当前未使用) |
 
 ### 传感器
 | Kext | 版本 | 用途 |

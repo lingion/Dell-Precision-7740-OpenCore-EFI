@@ -160,10 +160,9 @@ cd GenSMBIOS
 # 将输出的 Serial / MLB / UUID 填入 config.plist → PlatformInfo → Generic
 ```
 
-## 适用系统
+## 测试系统
 
 - macOS Sonoma (14.x)
-- 理论兼容 macOS Ventura / Monterey（Coffee Lake i7-9750H）
 
 ## 致谢
 

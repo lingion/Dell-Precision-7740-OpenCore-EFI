@@ -172,6 +172,12 @@ cd GenSMBIOS
 - [IntelBluetoothFirmware](https://github.com/OpenIntelWireless) — Intel 蓝牙固件
 - [Dortania](https://dortania.github.io) — OpenCore 安装指南
 
+## Documentation
+
+- **[Operation Guide](https://blog.qdp.qzz.io/docs/dell-efi/overview)** — step-by-step setup manual covering installation, config.plist configuration, kexts, USB mapping, and troubleshooting
+
+---
+
 ## License
 
 MIT

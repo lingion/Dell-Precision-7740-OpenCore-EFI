@@ -1,4 +1,13 @@
-# Dell Precision 7740 OpenCore EFI
+<p align="center">
+  <a href="https://github.com/lingion/Dell-Precision-7740-OpenCore-EFI/stargazers"><img src="https://img.shields.io/github/stars/lingion/Dell-Precision-7740-OpenCore-EFI?style=for-the-badge&logo=github&color=FFD700" alt="Stars"></a>
+  <a href="https://github.com/lingion/Dell-Precision-7740-OpenCore-EFI/network/members"><img src="https://img.shields.io/github/forks/lingion/Dell-Precision-7740-OpenCore-EFI?style=for-the-badge&logo=github&color=8B5CF6" alt="Forks"></a>
+  <a href="https://github.com/lingion/Dell-Precision-7740-OpenCore-EFI/issues"><img src="https://img.shields.io/github/issues/lingion/Dell-Precision-7740-OpenCore-EFI?style=for-the-badge&logo=github&color=EF4444" alt="Issues"></a>
+  <a href="https://github.com/lingion/Dell-Precision-7740-OpenCore-EFI/blob/main/LICENSE"><img src="https://img.shields.io/github/license/lingion/Dell-Precision-7740-OpenCore-EFI?style=for-the-badge&logo=github&color=10B981" alt="License"></a>
+  <br>
+  <a href="https://github.com/lingion/Dell-Precision-7740-OpenCore-EFI/commits/main"><img src="https://img.shields.io/github/last-commit/lingion/Dell-Precision-7740-OpenCore-EFI?style=flat-square" alt="Last commit"></a>
+  <a href="https://dortania.github.io/OpenCore-Legacy-Patcher/"><img src="https://img.shields.io/badge/OpenCore-EFI-0089CF?style=flat-square" alt="OpenCore"></a>
+  <a href="https://www.apple.com/macos/"><img src="https://img.shields.io/badge/macOS-Hackintosh-000000?style=flat-square&logo=apple" alt="macOS"></a>
+</p>
 
 > OpenCore 引导的 Dell Precision 7740 黑苹果 EFI，基于 **macOS Ventura**。  
 > **三码已清除，使用前请自行生成并填入 `config.plist`。**

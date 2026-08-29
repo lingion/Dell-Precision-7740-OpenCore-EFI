@@ -12,7 +12,7 @@
 > OpenCore 引导的 Dell Precision 7740 黑苹果 EFI，基于 **macOS Ventura**。  
 > **三码已清除，使用前请自行生成并填入 `config.plist`。**
 
-## ⚠️ 重要提醒
+## ⚠ 重要提醒
 
 **所有三码（Serial Number / MLB / System UUID）已替换为占位值，使用前务必自行生成！**
 
@@ -47,23 +47,23 @@
 
 | 功能 | 状态 | 备注 |
 |------|:----:|------|
-| 混合显卡 (iGPU + WX7130) | ✅ | iGPU 负责 UI/日常，dGPU 按需加载 |
-| S3 睡眠唤醒 | ✅ | 关盖休眠实测 2 天后正常唤醒 |
-| 有线网络 (Intel I219) | ✅ | IntelMausi |
-| Wi-Fi (BCM94360) | ✅ | AirportBrcmFixup 2.2.1 |
-| 蓝牙 (BCM94360) | ✅ | BrcmPatchRAM3 + BlueToolFixup |
-| 音频 (内置扬声器 + 耳机) | ✅ | AppleALC |
-| 摄像头 | ✅ | |
-| I2C 触摸板 (手势/多点触控) | ✅ | VoodooI2C + VoodooI2CHID |
-| 触摸板物理按键 (上下两排) | ✅ | |
-| USB 定制映射 | ✅ | USBToolBox + UTBMap |
-| SD 读卡器 | ✅ | RealtekCardReader + RealtekCardReaderFriend |
-| 键盘快捷键 (亮度/音量) | ✅ | BrightnessKeys |
-| NVMe 电源管理 | ✅ | NVMeFix |
-| 休眠修复 | ✅ | HibernationFixup |
-| 传感器 (温度/风扇/电池) | ✅ | VirtualSMC + SMCDellSensors + SMCProcessor |
-| Thunderbolt | ⚠️ | 未测试 |
-| HDMI/DP 外接显示 | ⚠️ | 未测试 |
+| 混合显卡 (iGPU + WX7130) | ✓ | iGPU 负责 UI/日常，dGPU 按需加载 |
+| S3 睡眠唤醒 | ✓ | 关盖休眠实测 2 天后正常唤醒 |
+| 有线网络 (Intel I219) | ✓ | IntelMausi |
+| Wi-Fi (BCM94360) | ✓ | AirportBrcmFixup 2.2.1 |
+| 蓝牙 (BCM94360) | ✓ | BrcmPatchRAM3 + BlueToolFixup |
+| 音频 (内置扬声器 + 耳机) | ✓ | AppleALC |
+| 摄像头 | ✓ | |
+| I2C 触摸板 (手势/多点触控) | ✓ | VoodooI2C + VoodooI2CHID |
+| 触摸板物理按键 (上下两排) | ✓ | |
+| USB 定制映射 | ✓ | USBToolBox + UTBMap |
+| SD 读卡器 | ✓ | RealtekCardReader + RealtekCardReaderFriend |
+| 键盘快捷键 (亮度/音量) | ✓ | BrightnessKeys |
+| NVMe 电源管理 | ✓ | NVMeFix |
+| 休眠修复 | ✓ | HibernationFixup |
+| 传感器 (温度/风扇/电池) | ✓ | VirtualSMC + SMCDellSensors + SMCProcessor |
+| Thunderbolt | ⚠ | 未测试 |
+| HDMI/DP 外接显示 | ⚠ | 未测试 |
 
 ## OpenCore 配置概要
 
